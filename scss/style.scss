@@ -24,14 +24,14 @@ $lv:green;
 //     }
 // }
 
-@mixin yy {
-    width:50px;
+@mixin yy($w){
+    width:$w;
     height:50px;
     background: $hong;
 }
 
 div{
-    @include yy;
+    @include yy(500px);
 }
 span{
     @include yy;
