@@ -1,0 +1,25 @@
+$hong:red;
+$fen:pink;
+$lv:green;
+*{
+     margin:0;
+    padding:0;
+}
+div{
+    width:200px;
+    height:200px;
+    background: $hong;
+    span{
+        color:#fff;
+        width:50px;
+        height:50px;
+        background: $fen;
+        display: block;
+    }
+    a{
+        background: $lv;
+        display: block;
+        width:30px;
+        height:30px
+    }
+}
